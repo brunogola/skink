@@ -1,0 +1,7 @@
+SQL_UP = """
+ALTER TABLE projects ADD scm varchar(30);
+"""
+
+SQL_DOWN = """
+ALTER TABLE projects DROP scm varchar(30);
+"""
